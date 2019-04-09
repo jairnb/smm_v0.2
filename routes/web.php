@@ -12,5 +12,25 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('inicio');
 });
+
+Route::get('home', function () {
+    return view('inicio');
+})->name('home');
+
+Route::get('apresentacao', function () {
+    return view('apresentacao');
+})->name('apresentacao');
+
+Route::get('programacao', function () {
+    return view('programacao');
+})->name('programacao');
+
+Route::get('contactar', function () {
+    return view('contactar');
+})->name('contactar');
+
+Route::get('facaparte', function () {
+    return view('facaparte');
+})->name('facaparte');

@@ -1,0 +1,95 @@
+@font-face {
+    font-family: Neo;
+    src: url('font/NeoSansPro-Light.ttf');
+    font-weight: normal;
+      font-style: normal;
+}
+
+@font-face {
+    font-family: NeoU;
+    src: url('font/NeoSansPro-Ultra.otf');
+    font-weight: normal;
+      font-style: normal;
+}
+
+@font-face {
+    font-family: NeoB;
+    src: url('font/NeoSansPro-Bold.ttf');
+    font-weight: normal;
+      font-style: normal;
+}
+@font-face {
+    font-family: NeoR;
+    src: url('font/NeoSansPro-Regular.ttf');
+    font-weight: normal;
+      font-style: normal;
+}
+@font-face {
+    font-family: NeoM;
+    src: url('font/NeoSansPro-Medium.ttf');
+    font-weight: normal;
+      font-style: normal;
+}
+.smm-logo{
+    height: 50px;
+}
+
+.smm-footer{
+    background-image: url(../img/img2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: justify;
+    display: block;
+    width: 100%;
+    padding: 30px 0;
+}
+
+.smm-email-img, .smm-instagram-img, .smm-facebook-img{
+    height: 25px;
+}
+
+.smm-email-footer{  
+    display: inline-block;
+    font-family: Neo;
+	font-size: 1.2em;
+	color: #38ABAB;
+}
+
+.smm-menu-footer ul li a, .smm-nav-links ul li a{
+    font-family: Neo;
+	font-size: 1em;
+	color: #38ABAB;
+}
+
+.smm-textinho{
+    font-family: Neo;
+    font-size: 1em;
+    color: #38ABAB;
+}
+
+.smm-header{
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    top:0;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    position: relative;
+}
+
+
+.smm-facaparte{
+    border: 1px solid #FFF;
+    border-radius: 20px;
+}
+
+.smm-header-centro{
+    position: absolute;
+    margin:0 auto;
+    color: #fff;
+    width: 50%;
+    top: 40%;
+    transform: translateX(50%);
+    font-family: NeoB;    
+}
