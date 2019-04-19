@@ -10,4 +10,9 @@
 
 @section('content-smm')
     <h1>teste</h1>
+
+    <div id="teste">
+
+        teste
+    </div>
 @endsection
