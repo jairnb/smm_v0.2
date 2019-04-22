@@ -85,11 +85,38 @@
 }
 
 .smm-header-centro{
-    position: absolute;
-    margin:0 auto;
+    /* position: absolute; */
+    /* margin:0 auto; */
     color: #fff;
-    width: 50%;
-    top: 40%;
-    transform: translateX(50%);
+    /* width: 50%; */
+    /* margin-top: 40%; */
+    /* transform: translateX(50%); */
     font-family: NeoB;    
+}
+
+.smm-titulo-breve{
+     position: relative; 
+    display: inline-block;
+    margin: 0 auto;
+    border: 3px solid #fff;
+    border-radius: 10px;
+    font-family: NeoB;
+    color: #fff;
+    /* padding-top: 15px; */
+    background: #38ABAB;
+    width: auto;
+    /* bottom: -26px; */
+    margin-top: -10px;
+   
+}
+
+.smm-contactar{
+    background-image: url(../img/img2.png);
+    background-repeat: no-repeat;
+    
+}
+
+.smm-titulo-div{
+    background-image: url(../img/img2.png);
+    background-repeat: no-repeat;
 }
