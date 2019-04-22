@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-md navbar-light">
+<nav class="navbar navbar-expand-md navbar-light smm-navbar">
     <div class="container">
         <a href="{{route('home')}}" class="navbar-brand"><img class="smm-logo" src="{{asset('img/logo.png')}}"></a>
         <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">

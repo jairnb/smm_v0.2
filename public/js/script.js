@@ -1,6 +1,8 @@
 $(document).ready(function(){
     $('#year').text(new Date().getFullYear());
-})
+
+    ajuste();
+});
 
 
 // const teste = document.querySelector('#teste')
@@ -19,4 +21,17 @@ document.querySelector('#faca-parte').addEventListener('click', function(){
             console.log('error')
         }
     })
-})
+});
+
+
+$(window).resize(function(){
+    $(".smm-inicio-programacao").height()
+    ajuste();
+});
+
+
+
+function ajuste(){
+    $("#smm-inicio-apresentacao-side-image").height($("#smm-inicio-apresentacao-side-image").parent().height());
+    $("#smm-inicio-programacao-side-image").height($("#smm-inicio-programacao-side-image").parent().height());
+};
