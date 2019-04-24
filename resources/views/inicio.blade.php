@@ -1,6 +1,6 @@
 @extends('app')
 
-@section('smm-bg-img', asset('img/img1.png'))
+@section('smm-header-height',500)
 
 @section('smm-titulo', 'SOMADA MUSIC MARKET')
 
@@ -12,7 +12,7 @@
 
 @section('content-smm')
     <div class="smm-inicio-apresentacao clearfix">
-        <div class="smm-inicio-texto d-inline float-left pt-4 pb-4">
+        <div class="smm-inicio-texto col-md-9 d-inline float-left pt-4 pb-4">
             <div class="w-75 mx-auto">
                 <h3 class="principal-color mt-5 mb-4 text-uppercase titulo">Somada market</h3>
                 <p class="principal-color text-justify mb-4">Somada Music Market (SMM) é um mercado de música 
@@ -24,7 +24,7 @@
                 <button class="btn smm-btn-primary mb-5">Junte-se a nós</button>
             </div>
         </div>
-        <div id="smm-inicio-apresentacao-side-image" class="smm-side-imagem d-inline-block" style="background-image:url(img/img3.png);">
+        <div id="smm-inicio-apresentacao-side-image" class="smm-side-imagem col-md-3 d-inline-block" style="background-image:url(img/img3.png);">
         </div>
     </div>
 
@@ -50,8 +50,8 @@
     </div>
 
     <div class="smm-inicio-programacao clearfix">
-        <div id="smm-inicio-programacao-side-image" class="smm-side-imagem float-left d-inline-block" style="background-image:url(img/img4.png);"></div>
-            <div class="smm-inicio-texto d-inline-block pt-4 pb-4">
+        <div id="smm-inicio-programacao-side-image" class="smm-side-imagem float-left d-inline-block col-md-3" style="background-image:url(img/img4.png);"></div>
+            <div class="smm-inicio-texto col-md-9 d-inline-block pt-4 pb-4">
                 <div class="w-75 mx-auto">
                     <h3 class="principal-color mt-5 mb-4 text-uppercase titulo">Somada music market</h3>
                     <p class="principal-color text-justify mb-4">Junte-se a nós e faça parte do primeiro mercado de 

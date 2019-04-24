@@ -1,7 +1,7 @@
 <footer>
     <div class="smm-footer">
         <div class="container">
-            <div class="row">
+            <div class="row footer-cima">
                 <div class="col-md-6 mb-3 smm-menu-footer">
                     <ul class="nav nav-pills">
                         <li><a class="nav-link" href="{{route('home')}}">INÍCIO</a></li>
@@ -20,7 +20,7 @@
             </div>
         </div>
     </div>
-    <div class="container text-center p-4 smm-textinho">
+    <div class="text-center p-4 smm-textinho smm-ano">
         <p>@<span id="year"></span>, Somada Music Market</p>
     </div>
 </footer>

@@ -11,7 +11,7 @@
         <link rel="stylesheet" type="text/css" href="css/app.css">
         <link rel="stylesheet" type="text/css" href="css/style.css">
     </head>
-    <body>
+    <body onload="ajuste()">
         @include('parts/nav')
 
         @include('parts/header')
