@@ -5,7 +5,7 @@
                 <div class="smm-header-centro">
                     <img src="img/logo.png" class="w-75 smm-logo-center mx-auto d-none" alt="">
                     <h1 class="w-50 mx-auto mb-0">@yield('smm-titulo')</h1>
-                    <span class="mx-auto w-25 mb-3"></span>
+                    <span class="mx-auto w-25 mb-3 @yield('display')"></span>
                     <h2>@yield('smm-subtitulo')</h2>
                     <p>@yield('smm-conteudo')</p>
                 </div>

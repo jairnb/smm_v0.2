@@ -35,15 +35,15 @@ function ajuste(){
 }
 
 
-let dropdown = $('#smm-pais');
-dropdown.empty();
-dropdown.append('<option selected="true" disabled>Pais?</option>');
-dropdown.prop('selectedIndex', 0);
-const url = 'http://restcountries.eu/rest/v2/all';
-$.getJSON(url, function (data) {
-  $.each(data, function (key, entry) {
-    dropdown.append($('<option></option>').attr('value', entry.abbreviation).text(entry.name));
-  })
-});
+// let dropdown = $('#smm-pais');
+// dropdown.empty();
+// dropdown.append('<option selected="true" disabled>Pais?</option>');
+// dropdown.prop('selectedIndex', 0);
+// const url = 'http://restcountries.eu/rest/v2/all';
+// $.getJSON(url, function (data) {
+//   $.each(data, function (key, entry) {
+//     dropdown.append($('<option></option>').attr('value', entry.abbreviation).text(entry.name));
+//   })
+// });
 
 

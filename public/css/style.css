@@ -247,9 +247,13 @@
     }
     
     
+    
 }
 
 @media (max-width:767px){
+    #smm-apresentacao-mapa-side-image{
+        display: none!important;
+    }
     .nav-item{
         border-bottom: 1px solid #38ABAB;
         text-align: center;
@@ -310,6 +314,10 @@
         margin-left: 40px;
     
     }   
+
+    .smm-centro{
+        top:30%!important;
+    }
 }
 
  

@@ -51,16 +51,15 @@
 
     <div class="smm-inicio-programacao clearfix">
         <div id="smm-inicio-programacao-side-image" class="smm-side-imagem float-left d-inline-block col-md-3" style="background-image:url(img/img4.png);"></div>
-            <div class="smm-inicio-texto col-md-9 d-inline-block pt-4 pb-4">
-                <div class="w-75 mx-auto">
-                    <h3 class="principal-color mt-5 mb-4 text-uppercase titulo">Somada music market</h3>
-                    <p class="principal-color text-justify mb-4">Junte-se a nós e faça parte do primeiro mercado de 
-                        música caboverdiana e aproveite essa plataforma para espandir os seus contactos.
-                        <br><br>O SMM pretende, por dois dias, transformar a cidade de Assomada no centro 
-                        cultural do país.
-                    </p>
-                    <button class="btn smm-btn-primary mb-5">Saiba mais sobre o evento</button>
-                </div>
+        <div class="smm-inicio-texto col-md-9 d-inline-block pt-4 pb-4">
+            <div class="w-75 mx-auto">
+                <h3 class="principal-color mt-5 mb-4 text-uppercase titulo">Somada music market</h3>
+                <p class="principal-color text-justify mb-4">Junte-se a nós e faça parte do primeiro mercado de 
+                    música caboverdiana e aproveite essa plataforma para espandir os seus contactos.
+                    <br><br>O SMM pretende, por dois dias, transformar a cidade de Assomada no centro 
+                    cultural do país.
+                </p>
+                <button class="btn smm-btn-primary mb-5">Saiba mais sobre o evento</button>
             </div>
         </div>
     </div>

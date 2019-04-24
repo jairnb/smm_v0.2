@@ -4,6 +4,7 @@
 @section('smm-bg-img', asset('img/img1.png'))
 @section('smm-header-height',250)
 @section('smm-titulo-borda', 'APRESENTAÇÃO')
+@section('display', 'd-none')
 
 @section('content-smm')
     <div class="smm-apresentacao clearfix">
