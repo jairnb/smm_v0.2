@@ -14,6 +14,8 @@
                 <div>
                     @yield('smm-titulo-borda')
                 </div>
+            </div>
         </div>
     </div>        
 </header>
+

@@ -305,5 +305,23 @@
         border-radius: 20px;
         margin-left: 40px;
     
-    }
+    }   
+}
+
+ 
+.smm-contactar{
+    background-image: url(../img/img2.png);
+    background-repeat: no-repeat;
+    
+} 
+
+ .form-control{
+    border-radius: 10px !important;
+}
+
+.smm-btn-enviar{
+    background: #38ABAB;
+    color:#FFF;
+    border-radius: 10px;
+    font-size: 1.2em;
 }
