@@ -27,10 +27,9 @@ Route::get('programacao', function () {
     return view('programacao');
 })->name('programacao');
 
-Route::get('contactar', function () {
-    return view('contactar');
-})->name('contactar');
-
 Route::get('facaparte', function () {
     return view('facaparte');
 })->name('facaparte');
+
+Route::get('contactar', 'contactarController@index')->name('contactar');
+Route::post('enviarmensagem', 'contactarController@enviarEmail');

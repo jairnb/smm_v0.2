@@ -2,36 +2,50 @@
 
 @section('smm-bg-img', asset('img/img1.png'))
 
-@section('smm-titulo', 'CONTACTAR')
+@section('smm-titulo', 'CONTACTE-NOS')
 
-{{-- @section('smm-subtitulo', 'FEIRA DA MÚSICA CABO VERDIANA') --}}
-
-{{-- @section('smm-conteudo', 'ASSOMADA / JUNHO 2019') --}}
-
-@section('smm-titulo-abreviado', 'O QUE DESEJA SABER?')
+@section('smm-titulo-borda', 'O QUE DESEJA SABER?')
 
 @section('content-smm')
+
+
     <div class="smm-contactar">
+        
         <div class="container">  
             <div class="row">
-                <div class="col-md-9 m-auto">
-                    <form action="" >
-                        <div class="form-group mt-3">
-                            <input type="text" placeholder="Nome*" class="form-control">
+                <div class="col-md-7 m-auto py-5 smm-textinho">
+                    @if(Session::has('success'))
+                        <div class="alert alert-success pt-4">
+                            {{ Session::get('success') }}
+                        </div>
+                    @endif
+                
+                    <form action="enviarmensagem" method="POST" id="form-app"> {{csrf_field()}}
+                        <div class="form-group mt-3 pt-3 input-group-lg">
+                            <input type="text" placeholder="Nome*" name="nome" id ="smm-nome" class="form-control" required="true">
+                        </div>
+                        <div class="form-group input-group-lg">
+                            <input type="email" placeholder="Email*" name="email" id="smm-email" class="form-control" required="true">
+                        </div>
+                        <div class="input-group">
+                            <div class="form-group col-md input-group-lg px-0 mr-1">
+                                <input type="text" placeholder="Assunto*" name="assunto" id="smm-assunto" class="form-control" required="true">
+                            </div>
+                            <div class="form-group col-md input-group-lg px-0">    
+                                <select class="form-control" name="pais" id="smm-pais"></select>                    
+                            </div>
                         </div>
                         <div class="form-group">
-                            <input type="text" placeholder="Email*" class="form-control">
+                            <textarea  name="mensagem"id="smm-mensagem" placeholder="Mensagem*" rows="7" class="form-control" required="true"></textarea>
                         </div>
-                        <div class="form-group">
-                            <input type="text" placeholder="Assunto*" class="form-control">
+                        <div class="form-group row justify-content-between">
+                            <button class="btn smm-btn-enviar px-5 py-1 ml-3" type="submit">Enviar</button>
+                            <span class="mr-3">*campo obrigatório</span>
                         </div>
-                        <div class="form-group">    
-                            <select class="form-control" id="smm-pais"></select>                    
-                        </div>
-                        <textarea required="true" placeholder="Mensagem*" class="form-control"></textarea>
                     </form>                      
                 </div>
             </div>
         </div>
     </div>
+    
 @endsection

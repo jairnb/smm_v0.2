@@ -113,7 +113,6 @@
 }
 
 .smm-header-centro{
-<<<<<<< HEAD
     margin:0 auto;
     color: #fff;
     font-family: NeoB;    
@@ -241,41 +240,23 @@
         border-radius: 20px;
         margin-left: 40px;
     
-    } 
-=======
-    /* position: absolute; */
-    /* margin:0 auto; */
-    color: #fff;
-    /* width: 50%; */
-    /* margin-top: 40%; */
-    /* transform: translateX(50%); */
-    font-family: NeoB;    
+    }   
 }
 
-.smm-titulo-breve{
-     position: relative; 
-    display: inline-block;
-    margin: 0 auto;
-    border: 3px solid #fff;
-    border-radius: 10px;
-    font-family: NeoB;
-    color: #fff;
-    /* padding-top: 15px; */
-    background: #38ABAB;
-    width: auto;
-    /* bottom: -26px; */
-    margin-top: -10px;
-   
-}
-
+ 
 .smm-contactar{
     background-image: url(../img/img2.png);
     background-repeat: no-repeat;
     
+} 
+
+ .form-control{
+    border-radius: 10px !important;
 }
 
-.smm-titulo-div{
-    background-image: url(../img/img2.png);
-    background-repeat: no-repeat;
->>>>>>> f89600e89d422b2ead6ed11417d183fba6478039
+.smm-btn-enviar{
+    background: #38ABAB;
+    color:#FFF;
+    border-radius: 10px;
+    font-size: 1.2em;
 }
