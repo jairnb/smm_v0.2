@@ -1,7 +1,6 @@
 <header class="smm-header" style="background-image: url(@yield('smm-bg-img')">
     <div class="container">
         <div class="row">
-
             <div class="smm-centro">
                 <div class="smm-header-centro">
                     <h1 class="w-50 mx-auto mb-0">@yield('smm-titulo')</h1>
