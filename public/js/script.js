@@ -29,11 +29,9 @@ jQuery(document).ready(function(){
 
 
 function ajuste(){
-    console.log("arumou");
-    $("#smm-inicio-apresentacao-side-image").height($("#smm-inicio-apresentacao-side-image").parent().height());
-    $("#smm-inicio-programacao-side-image").height($("#smm-inicio-programacao-side-image").parent().height());
-
-
+    $('#year').text(new Date().getFullYear());
+    $(".smm-side-imagem").height($(".smm-side-imagem").parent().find('.smm-inicio-texto').height() + 48);
+    $("#smm-inicio-programacao-side-image").height($("#smm-inicio-programacao-side-image").parent().find('.smm-inicio-texto').height() + 48);
 }
 
 

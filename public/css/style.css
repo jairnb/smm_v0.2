@@ -275,6 +275,10 @@
         top:15%;
     }
 
+    .smm-header{
+        min-height: 500px!important;
+    }
+
     .smm-header-centro>h1{
         font-family: NeoR;
         width: 100%!important;

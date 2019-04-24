@@ -6,6 +6,8 @@
 
 @section('smm-titulo-borda', 'O QUE DESEJA SABER?')
 
+@section('smm-header-height',250)
+
 @section('content-smm')
 
 
@@ -47,5 +49,6 @@
             </div>
         </div>
     </div>
+    @include('parts/patrocinadores')
     
 @endsection

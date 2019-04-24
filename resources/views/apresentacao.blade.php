@@ -31,16 +31,18 @@
     </div>
     <div class="smm-fique-por-dentro pt-5 text-center" style="background-image:url(img/fique-por-dentro.png); background-size:100%">
         <h3 class="titulo secundario-color text-center">Fique por dentro</h3>
-        <table class="secundario-color mx-auto mt-5">
-            <tr style="height:50px;">
+        <table class="secundario-color mx-auto mt-5 mb-4">
+            <tr class="border-top" style="height:50px;">
                 <td class="w-50" style=>15 de Abril</td>
-                <td class="text-left">Fim das candidaturas para showcases</td>
+                <td class="text-left pr-5">Fim das candidaturas para showcases</td>
             </tr>
-            <tr style="height:50px;">
+            <tr class="border-top border-bottom" style="height:50px;">
                 <td>14 & 15 de Junho</td>
                 <td class="text-left">Somada Music Market 2019</td>
             </tr>
         </table>
         <button class="btn smm-btn-secundary mb-5">Inscreva-se</button>
     </div>
+
+    @include('parts/patrocinadores')
 @endsection
