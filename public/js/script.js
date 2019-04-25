@@ -3,12 +3,11 @@
 document.querySelector('#faca-parte').addEventListener('click', function(){
     $.ajax({
         type: 'GET',
-        url: "http://127.0.0.1:8000/facaparte",
+        url: 'facaparteform',
         data: {},
         datatype: 'html',
         success: function (data) {
-            console.log(data);
-            $('#teste').html(data);
+            $('#smm-conteudos-facaparte').html(data);
         },
         error: function (data) {
             console.log('error');

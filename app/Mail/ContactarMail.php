@@ -30,7 +30,7 @@ class ContactarMail extends Mailable
     public function build(request $request)
     {
         //$data = ['Pais' => $request->pais, 'Menssagem: ' => $request->mensagem];
-        return $this->view('contactar', ['message' => $request->mensagem])
+        return $this->view('contactar', [$request->mensagem])
                         ->from($request->email, $request->nome)
                         ->to('jair.praia.cv@gmail.com', 'Pedro Fernandes')
                         ->subject($request->assunto);

@@ -18,7 +18,7 @@ class contactarController extends Controller
        
         $data = [$request->mensagem];
 // dd($request->mensagem);
-        Mail::send(['raw'=> 'contactar'], $data, function ($message) use ($request) {
+        Mail::send(['text'=> 'contactar'], $data, function ($message) use ($request) {
             $message->from($request->email, $request->nome);
             $message->sender($request->email, $request->nome);
             $message->to('jair.praia.cv@gmail.com', 'Jair Fernandes');
