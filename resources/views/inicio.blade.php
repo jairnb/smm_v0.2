@@ -21,7 +21,7 @@
                     seus trabalhos tenham sustentabilidade a longo prazo.
                     <br><br>O evento tomará lugar nos dias 14 e 15 de Junho em Assomada.
                 </p>
-                <button class="btn smm-btn-primary mb-5">Junte-se a nós</button>
+               <button value="apresentacao" onclick="irPagina(this.value)" class="btn smm-btn-primary mb-5">Saiba mais sobre o evento</button>
             </div>
         </div>
         <div id="smm-inicio-apresentacao-side-image" class="smm-side-imagem col-md-3 d-inline-block" style="background-image:url(img/img3.png);">
@@ -46,7 +46,7 @@
                 <img class="d-block m-auto w-25" src="img/ico2.png" alt="Calendário-icone">
                 <label class="smm-textinho mt-2">14 - 15, Julho, 2019</label></div>  
         </div>
-        <button class="btn smm-btn-primary mb-5 mt-2">Conheça nossa programação</button>
+        <button value="programacao" onclick="irPagina(this.value)" class="btn smm-btn-primary mb-5 mt-2">Conheça nossa programação</button>
     </div>
 
     <div class="smm-inicio-programacao clearfix">
@@ -59,7 +59,7 @@
                     <br><br>O SMM pretende, por dois dias, transformar a cidade de Assomada no centro 
                     cultural do país.
                 </p>
-                <button class="btn smm-btn-primary mb-5">Saiba mais sobre o evento</button>
+                <button value="facaparte" onclick="irPagina(this.value)" class="btn smm-btn-primary mb-5">Junte-se a nós</button>
             </div>
         </div>
     </div>

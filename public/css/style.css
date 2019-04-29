@@ -30,6 +30,10 @@
     font-weight: normal;
       font-style: normal;
 }
+tr{
+    border-top: 2px #38ABAB solid;
+    border-color:#38ABAB!important;
+}
 
 .smm-btn-primary{
     border:1px solid #38ABAB;
@@ -257,6 +261,10 @@
     .nav-item{
         border-bottom: 1px solid #38ABAB;
         text-align: center;
+    }
+
+    .des{
+        display:none!important;
     }
 
     .smm-titulo-borda{

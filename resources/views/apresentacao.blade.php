@@ -42,7 +42,7 @@
                 <td class="text-left">Somada Music Market 2019</td>
             </tr>
         </table>
-        <button class="btn smm-btn-secundary mb-5">Inscreva-se</button>
+        <button value="facaparte" onclick="irPagina(this.value)" class="btn smm-btn-secundary mb-5">Inscreva-se</button>
     </div>
 
     @include('parts/patrocinadores')
