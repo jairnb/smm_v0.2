@@ -19,7 +19,7 @@
                     <a href="{{route('contactar')}}" class="nav-link">CONTACTAR</a>
                 </li>
                 <li class="nav-item">
-                     <a href="#"  id="faca-parte" class="nav-link smm-facaparte">FAÇA PARTE</a> 
+                     <a href="{{route('facaparte')}}" class="nav-link smm-facaparte">FAÇA PARTE</a> 
                 </li>
             </ul>
         </div>                

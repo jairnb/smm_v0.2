@@ -9,10 +9,7 @@
 @section('smm-header-height',250)
 
 @section('content-smm')
-
-
-    <div class="smm-contactar">
-        
+    <div class="smm-contactar">        
         <div class="container">  
             <div class="row">
                 <div class="col-md-7 m-auto py-5 smm-textinho">
