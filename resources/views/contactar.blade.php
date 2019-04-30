@@ -31,7 +31,9 @@
                                 <input type="text" placeholder="Assunto*" name="assunto" id="smm-assunto" class="form-control" required="true">
                             </div>
                             <div class="form-group col-md input-group-lg px-0">    
-                                <select class="form-control" name="pais" id="smm-pais"></select>                    
+                                <select class="form-control" name="pais" id="smm-pais">
+                                    
+                                </select>                    
                             </div>
                         </div>
                         <div class="form-group">
