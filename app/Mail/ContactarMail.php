@@ -21,7 +21,7 @@ class ContactarMail extends Mailable
     {
         //
     }
-
+ 
     /**
      * Build the message.
      *
@@ -29,10 +29,14 @@ class ContactarMail extends Mailable
      */
     public function build(request $request)
     {
-        //$data = ['Pais' => $request->pais, 'Menssagem: ' => $request->mensagem];
-        return $this->view('contactar', [$request->mensagem])
-                        ->from($request->email, $request->nome)
-                        ->to('jair.praia.cv@gmail.com', 'Pedro Fernandes')
-                        ->subject($request->assunto);
+
+        return $this->view('parts.contactar.contactarMail', 
+                                ['nome'=> $request->nome,
+                                'email' => $request->email, 
+                                'assunto' => $request->assunto, 
+                                'pais' => $request->pais, 
+                                'mensagem' => $request->mensagem])
+                            ->to('jair.praia.cv@gmail.com')
+                            ->subject($request->assunto);
     }
 }
